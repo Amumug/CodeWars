@@ -6,3 +6,4 @@ function digitize(n){
     const nArr = nString.split('').reverse()
     return nArr.map(nString => parsenInt(nString))
 }
+//
