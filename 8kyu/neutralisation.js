@@ -4,7 +4,7 @@
 // When negatives and negatives interact, they remain negative.
 // But when negatives and positives interact, they become neutral, and are shown as the number 0.
 
-function (s1, s2){
+function neutralise%(s1, s2){
     let newS = ""
 
     for (let i = 0; i < s1.length; i++){
