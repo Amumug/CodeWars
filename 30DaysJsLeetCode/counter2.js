@@ -3,22 +3,19 @@
 const createCounter = (init) => {
     let count = init
 
-    increment = () => {
-        return ++count
-    }
+    increment =() => ++count
+    
 
-    decrement = () => {
-        return --count
-    }
+    decrement = () =>  --count
+
 
     reset = () => {
-        count = init 
+        count = init
         return count
     }
-
     return {
-        increment: increment,
-        decrement: decrement,
-        reset: reset
+        increment,
+        decrement,
+        reset
     }
 };
