@@ -3,7 +3,7 @@
 
 
 const reduce = (nums, fn, init) => {
-    let res = init 
+    let res = init; 
 
     for (const n of nums) {
         res = fn(init, n)
