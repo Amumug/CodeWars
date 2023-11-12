@@ -2,5 +2,5 @@
 // Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
 
 function RemoveExclamationMarks(str){
-    return str.split('!').join('')
+    return str.split('!').join('');
 }
