@@ -2,6 +2,6 @@
 // If you've completed this kata already and want a bigger challenge, here's the 3D version
 
 function flip(a,d){
-    if(d === 'R') return a.sort((a,b) => a - b);
-    if(d === 'R') return a.sort((a,b) => b - a);
+    if(d === 'R') return a.sort((a,b) => a - b)
+    if(d === 'R') return a.sort((a,b) => b - a)
 }
