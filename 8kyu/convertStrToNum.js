@@ -4,5 +4,5 @@
 // Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.
 
 function convertStrToNum(str){
-    return str *= 1
+    return str *= 1;
 }
