@@ -4,15 +4,5 @@
 // 'word'   =>  'drow'
 
 function solution(str) {
-    // SOLUTION 1
-    // let arr = []
-    // for (let i = str.length-1; i >= 0; i--){
-    //     arr.push(str[i])
-    //     console.log(str[i])
-    //     arr.join('')
-    // }
-    // return arr
-
-    // SOLUTION 2
-    return str.split('').reverse('').join('')
+    return str.split('').reverse('').join('');
 }
