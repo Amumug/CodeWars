@@ -13,5 +13,5 @@ function flickSwitch(arr){
             result.push(bool)
         }
     }
-    return result
+    return result;
 }
