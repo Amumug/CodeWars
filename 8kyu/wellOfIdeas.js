@@ -11,5 +11,5 @@ function well(x){
         return 'Publish!'
         default:
         return 'I smell a series!'
-    }
+    };
 }

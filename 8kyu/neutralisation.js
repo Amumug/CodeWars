@@ -16,5 +16,5 @@ function neutralise%(s1, s2){
             return new += "0"
         }
     }
-    return newS
+    return newS;
 }
