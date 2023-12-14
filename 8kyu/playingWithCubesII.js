@@ -12,5 +12,5 @@ class Cube {
 
         setSide(side = 0){
             this.side = Math.abs(side);
-        }
+        };
 }
