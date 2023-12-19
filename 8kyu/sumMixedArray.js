@@ -3,5 +3,5 @@
 // Return your answer as a number.
 
 function sumMix(x){
-    return x.reduce((a, b) => +b+a, 0);
+    return x.reduce((a, b) => +b+a, 0) 
 }
