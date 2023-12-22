@@ -3,5 +3,5 @@
 // The function must return a Boolean, but due to the way new works, valueOf() will be called on your returned value before strict comparison to true/false.
 
 function wasCalledWithNew(){
-    return new Boolean(new.target)
+    return new Boolean(new.target);
 }
