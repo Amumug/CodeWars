@@ -10,5 +10,5 @@ function getAverage(marks){
     for (let i = 0;i < count; i++){
         sum = sum + marks[i]
     }
-    return Math.floor(sum / count)
+    return Math.floor(sum / count);
 }
