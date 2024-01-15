@@ -13,6 +13,6 @@ function pipeFix(numbers){
     const resultArray = []
     for (let i = numbers[0]; i <= lastNumber; i++){
       resultArray.push(i)
-    }
+    };
     return resultArray
   }
